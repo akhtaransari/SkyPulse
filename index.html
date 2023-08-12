@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <title>SkyPulse</title>
+  </head>
+  <body>
+
+    <h1 class="head"> 
+      <img src="./logo.png" alt="logo">
+    </h1>
+
+    <div class="btns">
+      <input type="text" id="weather" placeholder="Search For City" />
+      <button id="search-btn" onclick="getWeather()">Check Weather</button>
+    </div>
+
+    <div id="wrapper">
+    </div>
+
+    <div id="cont">
+      <div id="wet" class="--common"></div>
+
+      <div id="map" class="--common"></div>
+    </div>
+  </body>
+
+  <script src="/app.js"></script>
+</html>
