@@ -1,8 +1,7 @@
 # SkyPulse Weather App
 
 Welcome to SkyPulse, a sleek and responsive weather app that brings you real-time weather and forecast information for any city. This app seamlessly integrates with the OpenWeatherMap API to provide accurate weather data at your fingertips.
-
-![SkyPulse Preview](preview.png)
+ <img src="logo.png" alt="Project Logo" width="250" style="border: 1px solid black; border-radius: 20px;">
 
 ## Features
 
@@ -14,7 +13,8 @@ Welcome to SkyPulse, a sleek and responsive weather app that brings you real-tim
 
 Dive into the world of weather information with this elegant and user-friendly interface:
 
-![SkyPulse Preview](preview.png)
+<p> <img src="Day.png" alt="Project Design" width="850" style="border: 1px solid black; border-radius: 10px;"> </p>
+<p> <img src="city.png" alt="Project Design" width="150" style="border: 1px solid black; border-radius: 50px;"> </p>
 
 ## How to Use
 
