@@ -2,15 +2,15 @@ const container = document.getElementById("wet");
 const mapContainer = document.querySelector("#map");
 const wrapperContainer = document.querySelector("#wrapper");
 
-const apiKey = "YOUR-API-KEY-GOES-HERE";
-const googleApiKey = "YOUR-API-KEY-GOES-HERE";
+const apiKey = "API-KEY";
+const googleApiKey = "API-KEY";
 
 const dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 document.getElementById("search-btn").addEventListener("click", getWeather);
 
 
 window.addEventListener("load", () => {
-  const locationPromise = fetch("http://ip-api.com/json");
+  const locationPromise = fetch("https://ipinfo.io/json");
   
   locationPromise
     .then(response => response.json())
